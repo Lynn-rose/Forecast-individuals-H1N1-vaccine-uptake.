@@ -87,7 +87,10 @@ Random Forest Classifier
 
 This model can help public health campaigns identify and target populations that are less likely to receive the vaccine, thereby improving vaccination coverage..
 
+ ## For More Information  
+Please review my full analysis in my [Jupyter Notebook](https://github.com/Lynn-rose/phase-3-project/blob/main/index.ipynb) or my [Presentation](https://github.com/Lynn-rose/dsc-phase-1-project-movie-data-analysis/blob/master/presantation.pdf)
 
+For any additional questions, please contact Lynn Rose Achieng, lynn90952@gmail.com
 <!-- #endregion -->
 
 ```python
