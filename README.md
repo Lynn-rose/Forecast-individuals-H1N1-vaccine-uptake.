@@ -76,8 +76,16 @@ AUC Value: The area under the ROC curve, which provides a single value represent
 Definition: A table used to describe the performance of a classification model, showing the actual vs. predicted classifications.
 
 ## Conclusion
+Based on the evaluation metrics (accuracy, ROC-AUC, classification reports), the Random Forest Classifier outperformed other models with the highest test accuracy and robust ROC-AUC scores. This model was selected as the final model for predicting H1N1 vaccine uptake.The following are the results of the metrics used during he modeling:
 
-Based on the evaluation metrics (accuracy, ROC-AUC, classification reports), the Random Forest Classifier outperformed other models with the highest test accuracy and robust ROC-AUC scores. This model was selected as the final model for predicting H1N1 vaccine uptake.
+Random Forest Classifier
+* Train Accuracy: 0.79
+
+* Test Accuracy: 0.80
+
+* AUC: 0.78 (train), 0.77 (test)
+
+This model can help public health campaigns identify and target populations that are less likely to receive the vaccine, thereby improving vaccination coverage..
 
 
 <!-- #endregion -->
