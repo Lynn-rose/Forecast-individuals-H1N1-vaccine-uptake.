@@ -2,7 +2,7 @@
 
 # Forecast individuals' H1N1 vaccine uptake.
 
-![awesome](https://github.com/Lynn-rose/phase-3-project/blob/main/images/WhatsApp%20Image%202024-06-06%20at%209.42.13%20AM.jpeg)
+![H1N1](https://github.com/Lynn-rose/phase-3-project/blob/main/images/WhatsApp%20Image%202024-06-06%20at%209.42.13%20AM.jpeg)
 
 ## Business Understanding
 ### Overview
