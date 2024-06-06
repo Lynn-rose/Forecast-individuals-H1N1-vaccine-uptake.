@@ -1,4 +1,3 @@
-<!-- #region -->
 
 #
 
@@ -11,8 +10,8 @@ The CDC recommends flu vaccination for everyone aged 6 months and older in the U
 # Problem Statement
 The goal of the "Flu Shot Learning: Predict H1N1" competition is to predict whether individuals received H1N1 vaccines based on their demographic information, opinions, and health behaviors. This predictive model has significant implications for public health initiatives and vaccine campaigns.
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-3-project-v2-3/main/images/smart.gif)
-
+![awesome](https://github.com/Lynn-rose/phase-3-project/blob/main/images/WhatsApp%20Image%202024-06-06%20at%209.42.13%20AM.jpeg)
+![Genre Rating Relationship](https://github.com/Lynn-rose/dsc-phase-1-project-movie-data-analysis/blob/master/images/popularity%20based%20on%20month.png)
 
 ## Objective
 To predict the probability for each individual receiving:
@@ -32,4 +31,7 @@ The dataset is derived from the National 2009 H1N1 Flu Survey and contains infor
 * Doctor Recommendations: Whether a doctor recommended the H1N1.
 
 
-<!-- #endregion -->
+
+```python
+
+```
