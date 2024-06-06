@@ -1,5 +1,8 @@
+<!-- #region -->
 
 # Forecast individuals' H1N1 vaccine uptake.
+
+![awesome](https://github.com/Lynn-rose/phase-3-project/blob/main/images/WhatsApp%20Image%202024-06-06%20at%209.42.13%20AM.jpeg)
 
 ## Business Understanding
 ### Overview
@@ -12,12 +15,12 @@ Faced with the reality of how quickly viral diseases like H1N1 and seasonal flu 
 
 The goal of the "Flu Shot Learning: Predict H1N1" competition is to predict whether individuals received H1N1 vaccines based on their demographic information, opinions, and health behaviors. This predictive model has significant implications for public health initiatives and vaccine campaigns.
 
-![awesome](https://github.com/Lynn-rose/phase-3-project/blob/main/images/WhatsApp%20Image%202024-06-06%20at%209.42.13%20AM.jpeg)
 
 ### Objective
 To predict the probability for each individual receiving:
 
 H1N1 Vaccine: The likelihood that a person received the H1N1 flu vaccine.
+
 ## Data Understanding
 The dataset is derived from the National 2009 H1N1 Flu Survey and contains information on 26,707 respondents, with each row representing one individual's responses. The dataset includes:
 
@@ -31,7 +34,53 @@ The dataset is derived from the National 2009 H1N1 Flu Survey and contains infor
 
 * Doctor Recommendations: Whether a doctor recommended the H1N1.
 
+## Data Preprocessing
+The following steps were taken in the preparation of the data ready for modelling.
 
+1. Data Cleaning: Selected relevant columns, handled missing values by dropping rows with NaNs.
+
+2. Train-Test Split: Split the dataset into training (80%) and testing (20%) sets.
+
+3. Standardization: Standardized the feature set using StandardScaler.
+
+4. Handling Class Imbalance: Applied SMOTE to balance the class distribution in the training data.
+
+## Modeling
+
+The following models were used during the developing of a machine learning model that can predict whether individuals received the H1N1 vaccine based on demographic information, health behaviors, opinions, and medical data. These models aims to assist public health initiatives in identifying factors that influence vaccine uptake and targeting specific populations to improve vaccination rates.
+
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
+4. K-Nearest Neighbors (KNN) Classifier
+
+## Evaluation
+In this project, multiple evaluation metrics were used to assess the performance of different models in predicting H1N1 vaccine uptake. These metrics provided insights into the accuracy, precision, recall, and overall predictive power of the models.
+
+1. Accuracy
+Definition: The proportion of true results (both true positives and true negatives) among the total number of cases examined.
+
+2. Precision
+Definition: The proportion of positive identifications that were actually correct.
+
+3. Recall (Sensitivity)
+Definition: The proportion of actual positives that were correctly identified.
+
+4. F1-Score
+Definition: The harmonic mean of precision and recall, providing a balance between the two metrics.
+
+5. ROC-AUC (Receiver Operating Characteristic - Area Under Curve)
+Definition: Measures the ability of the model to distinguish between classes. The ROC curve plots the true positive rate (sensitivity) against the false positive rate (1-specificity).
+AUC Value: The area under the ROC curve, which provides a single value representing the model's performance. A higher AUC indicates better model performance.
+6. Confusion Matrix
+Definition: A table used to describe the performance of a classification model, showing the actual vs. predicted classifications.
+
+## Conclusion
+
+Based on the evaluation metrics (accuracy, ROC-AUC, classification reports), the Random Forest Classifier outperformed other models with the highest test accuracy and robust ROC-AUC scores. This model was selected as the final model for predicting H1N1 vaccine uptake.
+
+
+<!-- #endregion -->
 
 ```python
 
