@@ -11,7 +11,7 @@ The H1N1 flu, sometimes called Swine flu is a type of influenza A virus. During 
 The CDC recommends flu vaccination for everyone aged 6 months and older in the United States since the 2010-2011 flu season. It is crucial for preventing flu and its complications, especially for those at higher risk. Suitability for vaccination or a specific vaccine depends on factors like age, health, and allergies. Various vaccines are approved for different age groups, and some are not recommended for specific individuals. Notably, there are three flu vaccines preferentially recommended for people aged 65 and older.
 
 ## Problem Statement
-Faced with the reality of how quickly viral diseases like H1N1 and seasonal flu can spread, along with their associated health risks and a notable mortality rate, there is a pressing need to develop a model to accurately identify individuals who are more likely to receive their H1N1 and seasonal flu vaccines.
+Faced with the reality of how quickly viral diseases like H1N1 can spread, along with their associated health risks and a notable mortality rate, there is a pressing need to develop a model to accurately identify individuals who are more likely to receive their H1N1 and seasonal flu vaccines.
 
 The goal of the "Flu Shot Learning: Predict H1N1" competition is to predict whether individuals received H1N1 vaccines based on their demographic information, opinions, and health behaviors. This predictive model has significant implications for public health initiatives and vaccine campaigns.
 
